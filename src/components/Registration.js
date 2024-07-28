@@ -17,7 +17,11 @@ export default function Registration(props) {
                     <input type="password" className="form-control" name='password' />
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
-            </form>
+            </form><br/>
+            <div>
+                <button type="submit" className="btn btn-primary">Cancel</button>
+
+            </div>
         </div>
     )
 }
